@@ -1,6 +1,5 @@
 # Github Developer Profile Generator
 ![Deveopler Profile Application Run in Terminal](/assets/images/Developer_Profile_Prompt_Terminal.gif)
-![Created PDF of Profile](profile.pdf)
 
 ## Description
 From your computer's terminal, this application guides the user through two questions, then will output a PDF of the developer's profile. 
