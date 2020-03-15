@@ -1,11 +1,9 @@
 # Github Developer Profile Generator
-![Deveopler Profile Application Run in Terminal](/assets/images/Developer_Profile_Prompt_Terminal.gif)
+In your terminal, go to the correct folder location and run "npm install." Once all dependencies have been installed, run "node server.js" and answer the questions that are prompted. Once complete, a PDF of your github profile will be generated in the same folder.
 
 ## Description
 From your computer's terminal, this application guides the user through two questions, then will output a PDF of the developer's profile. 
-
-## How to Use
-In your terminal, go to the correct folder location and run "npm install." Once all dependencies have been installed, run "node server.js" and answer the questions that are prompted. Once complete, a PDF of your github profile will be generated in the same folder.
+![Developler Profile Application Run in Terminal](/assets/images/Developer_Profile_Prompt_Terminal.gif)
 
 ## Credits
 ° https://www.npmjs.com/package/html-pdf
