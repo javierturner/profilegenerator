@@ -6,6 +6,8 @@ From your computer's terminal, this application guides the user through two ques
 
 ![Developler Profile Application Run in Terminal](/assets/images/Developer_Profile_Prompt_Terminal.gif)
 
+![Generated PDF of Profile](assets/images/generated_PDF_profile.jpg)
+
 ## Credits
 ° https://www.npmjs.com/package/html-pdf
 
