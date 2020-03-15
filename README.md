@@ -3,6 +3,7 @@ In your terminal, go to the correct folder location and run "npm install." Once 
 
 ## Description
 From your computer's terminal, this application guides the user through two questions, then will output a PDF of the developer's profile. 
+
 ![Developler Profile Application Run in Terminal](/assets/images/Developer_Profile_Prompt_Terminal.gif)
 
 ## Credits
