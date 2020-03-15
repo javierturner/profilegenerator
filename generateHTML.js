@@ -14,7 +14,7 @@ body {
     background-color: black;
     }
 div {
-  color: red;
+  color: ;
   border: 2px solid;
 }
 p {
@@ -31,17 +31,17 @@ img  {
 </style>
 </head>
 <body>
-<h1 style = 'color: ${color}'>${data.name}</h1>
+<h1 style = 'color: ${data.data.color}'>${data.data.name}</h1>
 <div>    
-<img src = "${data.avatar_url}">
+<img src = "${data.data.avatar_url}">
     
-                <p>Username: ${data.login}</p>
-                <p>Followers: ${data.followers}</p>
-                <p>Following: ${data.following}</p>
-                <p>Repo URL: ${data.repos_url}</p>
-                <p>Bio: ${data.bio}</p>
-                <p>Location: ${data.location}</p>
-                <p>Avatar URL: ${data.avatar_url}</p>
+                <p>Username: ${data.data.login}</p>
+                <p>Followers: ${data.data.followers}</p>
+                <p>Following: ${data.data.following}</p>
+                <p>Repo URL: ${data.data.repos_url}</p>
+                <p>Bio: ${data.data.bio}</p>
+                <p>Location: ${data.data.location}</p>
+                <p>Avatar URL: ${data.data.avatar_url}</p>
     </div>
     
 </body>
