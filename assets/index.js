@@ -1,11 +1,12 @@
-var inquirer = require("inquirer");
-var fs = require('fs');
+const inquirer = require("inquirer");
+const fs = require("fs");
+const axios = require("axios");
 
 inquirer.prompt([
     {
         type: "input",
         name: "name",
-        message: "What is your username?",
+        message: "What is your Github username?",
     },
     {
         type: "list",
@@ -23,5 +24,14 @@ inquirer.prompt([
             "gray",
         ]
     },
+]).then(function({username}) {
+    const queryURL = `https://api.github.com/users/${username}/repos?per_page=100`;
 
-])
+    axios.get(queryURL).then(function(res) {
+        const repoName = res.data.map(function(repo) {
+            return repo.name;
+        });
+
+        console.log(repoName);
+    })
+})
