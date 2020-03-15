@@ -1,4 +1,5 @@
 const fs = require("fs");
+
 function generateHTML(data, color) {
     const htmlTemplate = `
      <!DOCTYPE html>
